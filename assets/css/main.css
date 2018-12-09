@@ -3318,3 +3318,7 @@ input, select, textarea {
 		width: 20%;
 		border-radius: 100%;
 	}
+
+	.proj-link {
+		margin: 0 15px;
+	}
