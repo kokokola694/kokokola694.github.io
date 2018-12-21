@@ -191,6 +191,10 @@ input, select, textarea {
 		width: 51em;
 	}
 
+	.projects {
+		width: 61em;
+	}
+
 		.container.medium {
 			width: 38.25em;
 		}
