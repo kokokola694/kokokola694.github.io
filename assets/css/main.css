@@ -2187,7 +2187,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.2;
+			opacity: 0.01;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2397,21 +2397,21 @@ input, select, textarea {
 					width: 100%;
 				}
 
-					ul.actions:not(.fixed) li > * {
+					/* ul.actions:not(.fixed) li > * {
 						width: 100%;
-					}
+					} */
 
 					ul.actions:not(.fixed) li:first-child {
 						padding-top: 0;
 					}
 
-					ul.actions:not(.fixed) li input[type="submit"],
+					/* ul.actions:not(.fixed) li input[type="submit"],
 					ul.actions:not(.fixed) li input[type="reset"],
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
-					}
+					} */
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
@@ -2694,10 +2694,10 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("../../images/asphalt_blur.jpg"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
-		background-size: 3200px 460px,					auto,					cover;
+		background-size: 3200px 460px,					cover,					cover;
 		color: rgba(255, 255, 255, 0.8);
 		padding: 10em 0 20em 0;
 		position: relative;
@@ -2753,7 +2753,7 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #4eb980;
+			/* background: #4eb980; */
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2901,7 +2901,7 @@ input, select, textarea {
 	}
 
 		#main:before {
-			background: rgba(224, 224, 224, 0.75);
+			/* background: rgba(224, 224, 224, 0.75); */
 			content: '';
 			height: 100%;
 			left: 50%;
@@ -3012,8 +3012,8 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1600px 230px,					auto,							cover;
+				background-image: url("images/top-1600.svg"), url("../../images/asphalt_blur.jpg"), url("../../images/header.jpg");
+				background-size: 1600px 230px,					cover,							cover;
 				padding: 6em 0 12em 0;
 			}
 
@@ -3164,8 +3164,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1280px 184px,						auto,							cover;
+				background-image: url("images/top-1280.svg"), url("../../images/asphalt_blur.jpg"), url("../../images/header.jpg");
+				background-size: 1280px 184px,						cover,							cover;
 				padding: 3em 0 7em 0;
 			}
 
@@ -3232,13 +3232,13 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="submit"],
+			/* input[type="submit"],
 			input[type="reset"],
 			input[type="button"],
 			.button {
 				display: block;
 				width: 100%;
-			}
+			} */
 
 		/* Box */
 
